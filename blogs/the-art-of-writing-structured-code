@@ -51,7 +51,7 @@ int x<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></
 a<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>*<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>b<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>+<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>(c<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>%<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>d);
 
 // ternary expression
-((a & 69) == 1)<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>?<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>"Odd"<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>:<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>"Even";
+((a<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>&<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>69)<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>==<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>1)<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>?<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>"Odd"<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>:<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>"Even";
 
 // conditional
 if (x<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>>=<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>69) {}
@@ -84,7 +84,7 @@ enum Day<span class="space" style="background-color: yellow; padding: 0 0.3rem;"
 </code></pre>
 				<li>After forward slash (“/”)</li>
 <code><pre>// comment
-//<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>This is single line comment
+//<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>This is single line comment!
 </code></pre>
         </ul>
 	<br>
