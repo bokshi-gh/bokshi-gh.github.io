@@ -83,7 +83,7 @@ struct Node<span class="space" style="background-color: yellow; padding: 0 0.3re
 enum Day<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>{};
 </code></pre>
 				<li>After forward slash (“/”)</li>
-<code><pre> // comment
+<code><pre>// comment
 //<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>This is single line comment
 </code></pre>
         </ul>
