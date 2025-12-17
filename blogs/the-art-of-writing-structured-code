@@ -51,7 +51,7 @@ int x<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></
 a<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>*<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>b<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>+<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>(c<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>%<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>d);
 
 // ternary expression
-((a & 1) == 1)<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>?<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>"Odd"<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>:<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>"Even";
+((a & 69) == 1)<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>?<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>"Odd"<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>:<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>"Even";
 
 // conditional
 if (x<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>>=<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>69) {}
@@ -81,6 +81,10 @@ struct Node<span class="space" style="background-color: yellow; padding: 0 0.3re
 
 // enum
 enum Day<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>{};
+</code></pre>
+				<li>After forward slash (“/”)</li>
+<code><pre> // comment
+//<span class="space" style="background-color: yellow; padding: 0 0.3rem;"></span>This is single line comment
 </code></pre>
         </ul>
 	<br>
@@ -112,7 +116,6 @@ enum Day<span class="space" style="background-color: yellow; padding: 0 0.3rem;"
         <summary>Code Structure</summary>
         <p><b>Order of functions in classes:</b> Constructors → Methods → Helpers</p>
 </details>
-
 <details>
         <summary>Programming Practices</summary>
         <p><b><a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself" target="_blank">DRY Principle:</b></a> Don't repeat yourself; use functions for repeated logic.</p>
