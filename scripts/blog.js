@@ -32,7 +32,7 @@ const fetchBlog = async (linkTitle) => {
 
         blogTitle.innerText = title;
         blogDate.innerHTML = `<i class="fa-solid fa-calendar"></i>` + " " + date;
-	blogTag.innerText = tag;
+	    blogTag.innerText = tag;
         blogContent.innerHTML = content;
     } catch (error) {
         blogDate.innerText = "";
@@ -48,3 +48,4 @@ const indexOfTitleQueryParameter = url.indexOf("title=");
 const linkTitle = url.slice(indexOfTitleQueryParameter + 6, url.length);
 
 fetchBlog(linkTitle);
+
